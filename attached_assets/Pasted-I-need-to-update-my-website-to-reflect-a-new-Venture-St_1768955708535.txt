@@ -1,0 +1,43 @@
+I need to update my website to reflect a new 'Venture Studio' model and the People Over Places (POP) philosophy. Please follow these specific instructions based on the existing sections:
+
+1. Hero Section (Screenshot 4.32.22 PM):
+
+Keep: The background image and layout.
+
+New Headline: 'Empowering the People Who Craft the Experience.'
+
+New Sub-headline: 'Mise En POP is a venture studio built on a simple conviction: People Over Places. We build the digital infrastructure that empowers exceptional talent to own their craft.'
+
+2. Manifesto Section (Replace 'The Hospitality Industry Deserves Better' - 4.32.30 PM):
+
+Remove: The turnover and engagement statistics.
+
+New Content: Create a 'Our Philosophy' block.
+
+Text: 'In the industry, mise en place means everything in its place. At Mise En POP, we believe the most vital element to have in place is the individual. We center the exceptional people who craft the experience, providing them with tools to thrive wherever their craft takes them.'
+
+3. Product Section (Replace 'Our Products' - 4.32.41 PM):
+
+Remove: The Jenry and Bar Connect cards.
+
+New Content: Add a single, centered 'Flagship Venture' card for Almíbar.
+
+Text: 'Almíbar: A professional networking ecosystem designed for the modern hospitality professional. Built to honor the People Over Places mission by connecting top-tier talent and providing a platform for growth outside the walls of any single establishment.'
+
+Status Tag: 'In Private Beta.'
+
+4. Our Impact Section (4.32.54 PM):
+
+Update Item 1 (Mission): 'Empower hospitality's elite talent through human-centered technology.'
+
+Update Item 2 (Products): 'Almíbar: Launching 2026.'
+
+Update Item ∞ (Possibilities): 'When People Over Places becomes the standard.'
+
+5. PRESERVE WITHOUT CHANGES:
+
+Meet Our Leadership: Do not modify the 'Meet Our Leadership' section (4.32.48 PM) or the bios for Jucely Marie Rivera and Samuel Rivera.
+
+Navigation: Keep 'Products' and 'Team' links.
+
+Global Styles: Keep the existing color palette (orange/blue/cream) and fonts.

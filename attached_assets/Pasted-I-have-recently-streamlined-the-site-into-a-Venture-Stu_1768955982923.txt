@@ -1,0 +1,43 @@
+I have recently streamlined the site into a Venture Studio model. Please refine the copy and the single 'Something Big is Brewing' section to reflect a warmer, more inviting tone for the People Over Places (POP) philosophy.
+
+1. PROTECTION RULES:
+
+Keep the 'Meet Our Leadership' section exactly as is.
+
+Keep the 'Built for Everyone' three-card section.
+
+Maintain all current colors, fonts, and layout styles.
+
+2. HERO SECTION REFINEMENT:
+
+Headline: 'Elevating the People Who Craft the Experience.'
+
+Sub-headline: 'Mise En POP is a venture studio built on a simple conviction: People Over Places. We create the digital tools that empower hospitality’s elite talent to own their professional journey.'
+
+3. PHILOSOPHY SECTION (Replace 'The Hospitality Industry Deserves Better'):
+
+Action: Remove the icons and the 74%/42%/69% statistics.
+
+New Title: 'Our Philosophy: People Over Places'
+
+New Body Text: 'In the industry, mise en place means every tool is ready for service. At Mise En POP, we believe the heart of that preparation is the person. We center the exceptional professionals who craft the experience, ensuring they have the support to thrive wherever their talent takes them.'
+
+4. STRENGTHENING THE FLAGSHIP CARD ('Something Big is Brewing'):
+
+Design: Ensure this single card is the visual centerpiece of the 'Products' section. Add a subtle 'hover-lift' effect and a soft 'shimmer' to the card to signify it is a premium teaser.
+
+Headline: 'Something Big is Brewing'
+
+Sub-headline: 'Your Network. Your Regulars. Your Career.'
+
+Copy: 'We are crafting a human-centered ecosystem that puts the professional first. One platform to cultivate your connections, showcase your reputation, and take ownership of your craft.'
+
+Button: Keep as 'Request Early Access'.
+
+5. FOOTER & IMPACT UPDATES:
+
+Our Impact: Update 'Mission' to: 'Empowering hospitality’s talent through human-centered technology.' Update 'Products' to: 'Flagship Networking Platform: Launching 2026.'
+
+Footer Tagline: Update to: 'Centering the people who craft the experience.'
+
+Clean-up: Verify that all references to 'Jenry' are removed from the footer and code.
