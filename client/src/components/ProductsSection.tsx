@@ -36,7 +36,7 @@ export default function ProductsSection() {
               <p className="mt-6 mb-6 mx-auto max-w-[340px]" style={{ fontFamily: '"Plus Jakarta Sans", sans-serif' }}>
                 <span className="text-xl font-normal" style={{ color: '#1e293b' }}>Hospitality </span>
                 <span
-                  className="text-[22px] italic font-normal"
+                  className="text-[22px] italic font-semibold"
                   style={{ fontFamily: '"Cormorant Garamond", Georgia, serif', color: '#E86835' }}
                 >
                   for
