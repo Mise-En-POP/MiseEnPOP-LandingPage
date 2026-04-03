@@ -1,8 +1,7 @@
 import { Card } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
-import { Users, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { useScrollReveal } from '@/hooks/use-scroll-reveal';
+import almibarLogo from '@assets/almibar-logo-horizontal.png';
 
 export default function ProductsSection() {
   const { ref, isVisible } = useScrollReveal();
@@ -19,40 +18,66 @@ export default function ProductsSection() {
           <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-transparent via-white/40 to-transparent opacity-0 group-hover:opacity-100 group-hover:animate-shimmer transition-opacity duration-500 pointer-events-none" />
           <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary via-chart-2 to-primary" />
 
-          <div className="p-8 md:p-12 lg:p-16 space-y-8 relative z-10">
-            <div className="text-center space-y-6">
-              <Badge className="bg-primary/10 text-primary border border-primary/20 px-4 py-1.5 font-medium" data-testid="badge-coming-soon">
-                Coming Soon
-              </Badge>
-
-              <h2 className="font-bold text-3xl md:text-4xl lg:text-5xl text-foreground leading-tight">
-                Something Big is Brewing
-              </h2>
-
-              <p className="text-xl md:text-2xl font-medium" style={{ color: '#E86835' }}>
-                Your Network. Your Regulars. Your Career.
-              </p>
-
-              <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">We are crafting a human-centered ecosystem that puts the talent first. One platform to cultivate your connections, amplify your work, and take ownership of your craft.</p>
-            </div>
-
-            <div className="flex flex-col items-center gap-4 pt-4">
-              <Button
-                size="lg"
-                className="text-lg px-8"
-                asChild
-                data-testid="button-early-access"
+          <div className="p-10 md:p-12 lg:p-16 space-y-6 relative z-10">
+            <div className="text-center">
+              <span
+                className="block mb-7 text-[21px] italic font-semibold tracking-wide"
+                style={{ fontFamily: '"Cormorant Garamond", Georgia, serif', color: '#C4956C' }}
               >
-                <a href="https://almibar.app" target="_blank" rel="noopener noreferrer">
-                  <Users className="mr-2 w-5 h-5" />
-                  Learn More
-                  <ArrowRight className="ml-2 w-4 h-4" />
-                </a>
-              </Button>
+                Introducing
+              </span>
 
-              <p className="text-center text-sm text-muted-foreground">
-                For bartenders, ambassadors, and hospitality professionals
+              <img
+                src={almibarLogo}
+                alt="almíbar logo"
+                className="h-[80px] sm:h-[80px] h-[56px] mx-auto"
+              />
+
+              <p className="mt-6 mb-6 mx-auto max-w-[340px]" style={{ fontFamily: '"Plus Jakarta Sans", sans-serif' }}>
+                <span className="text-xl font-normal" style={{ color: '#1e293b' }}>Hospitality </span>
+                <span
+                  className="text-[22px] italic font-normal"
+                  style={{ fontFamily: '"Cormorant Garamond", Georgia, serif', color: '#E86835' }}
+                >
+                  for
+                </span>
+                <span className="text-xl font-normal" style={{ color: '#1e293b' }}> Hospitality</span>
               </p>
+
+              <p className="text-base leading-relaxed text-muted-foreground max-w-[680px] mx-auto mb-9">
+                Where world-class talent builds their legacy, premium brands discover tastemakers, venues reach new audiences, and enthusiasts follow the flavor.
+              </p>
+
+              <a
+                href="https://almibar.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2.5 px-8 py-3.5 rounded-lg text-base font-semibold transition-all duration-300 ease-out hover:-translate-y-0.5"
+                style={{
+                  backgroundColor: '#1e293b',
+                  color: '#F0E0CC',
+                  border: '1px solid #1e293b',
+                  boxShadow: '0 2px 8px rgba(30, 42, 94, 0.15)',
+                }}
+                data-testid="button-early-access"
+                onMouseEnter={(e) => {
+                  const el = e.currentTarget;
+                  el.style.backgroundColor = '#FF7151';
+                  el.style.color = '#ffffff';
+                  el.style.borderColor = '#FF7151';
+                  el.style.boxShadow = '0 6px 16px rgba(255, 113, 81, 0.35)';
+                }}
+                onMouseLeave={(e) => {
+                  const el = e.currentTarget;
+                  el.style.backgroundColor = '#1e293b';
+                  el.style.color = '#F0E0CC';
+                  el.style.borderColor = '#1e293b';
+                  el.style.boxShadow = '0 2px 8px rgba(30, 42, 94, 0.15)';
+                }}
+              >
+                Get Early Access
+                <ArrowRight className="w-4 h-4" />
+              </a>
             </div>
           </div>
         </Card>
